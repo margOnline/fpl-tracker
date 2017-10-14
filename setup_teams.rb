@@ -1,6 +1,6 @@
 require 'sequel'
 require 'httparty'
-require './fpl_tracker'
+require './tracker'
 
 class SetupTeams
 
@@ -16,7 +16,7 @@ class SetupTeams
   end
 
   def self.populate(db_conn)
-    url = FplTracker::URL
+    url = Tracker::URL
     team_data = HTTParty.get(URI(url)).parsed_response['teams']
     teams_table = db_conn[:teams]
     teams = []

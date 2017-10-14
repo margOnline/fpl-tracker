@@ -1,6 +1,6 @@
-require './fpl_tracker'
+require './lib/tracker'
 
-RSpec.describe FplTracker do
+RSpec.describe Tracker do
 
   subject { described_class}
 

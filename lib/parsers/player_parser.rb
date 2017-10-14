@@ -7,7 +7,7 @@ class PlayerParser
 
   def initialize(player)
     @player = player
-    @teams ||= FplTracker::DB[:teams].as_hash(:id, :name)
+    @teams ||= Tracker::DB[:teams].as_hash(:id, :name)
   end
 
   def parse

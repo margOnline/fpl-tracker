@@ -15,25 +15,25 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     rmagick (2.16.0)
-    rspec (3.5.0)
-      rspec-core (~> 3.5.0)
-      rspec-expectations (~> 3.5.0)
-      rspec-mocks (~> 3.5.0)
-    rspec-core (3.5.4)
-      rspec-support (~> 3.5.0)
-    rspec-expectations (3.5.0)
+    rspec (3.6.0)
+      rspec-core (~> 3.6.0)
+      rspec-expectations (~> 3.6.0)
+      rspec-mocks (~> 3.6.0)
+    rspec-core (3.6.0)
+      rspec-support (~> 3.6.0)
+    rspec-expectations (3.6.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.5.0)
-    rspec-mocks (3.5.0)
+      rspec-support (~> 3.6.0)
+    rspec-mocks (3.6.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.5.0)
-    rspec-support (3.5.0)
+      rspec-support (~> 3.6.0)
+    rspec-support (3.6.0)
     sequel (5.1.0)
     sqlite3 (1.3.13)
-    twilio-ruby (5.0.0)
+    twilio-ruby (5.2.3)
       faraday (~> 0.9)
       jwt (~> 1.5)
-      libxml-ruby (= 3.0.0)
+      libxml-ruby (>= 2.0, < 4.0)
     whenever (0.9.7)
       chronic (>= 0.6.3)
 
@@ -48,8 +48,8 @@ DEPENDENCIES
   rspec
   sequel
   sqlite3
-  twilio-ruby (~> 5.0.0.rc21)
+  twilio-ruby (~> 5.2.2)
   whenever
 
 BUNDLED WITH
-   1.15.4
+   1.16.0.pre.3

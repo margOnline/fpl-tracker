@@ -1,4 +1,4 @@
-# fpl-api
+# fpl-tracker
  
 A small app that sends text alerts with information about the fantasy premier league.
 
@@ -6,7 +6,7 @@ A small app that sends text alerts with information about the fantasy premier le
 
 1.  In Terminal, go to your projects directory and clone the project:
 
-        git clone git@github.com:margOnline/leaderboard.git
+        git clone git@github.com:margOnline/fpl-tracker.git
 
 2.  Install gem dependencies:
 
@@ -19,13 +19,13 @@ A small app that sends text alerts with information about the fantasy premier le
 
         ruby database.rb
 
-5.  Run tests to make sure they pass with your environment:
+5.  Run the tests to make sure they pass with your environment:
 
         bundle exec rspec
 
 ## Running the app
 
-        ruby fpl_tracker.rb
+        ruby tracker.rb
 
 ## Recognition
-This app was based on a [tutorial](https://github.com/FanaHOVA/twilio-dfs-tracker/blob/master/Gemfile) by [Alessio Fanelli](https://github.com/FanaHOVA)
+This app was based on a [tutorial](https://github.com/FanaHOVA/twilio-dfs-tracker/blob/master/Gemfile) by [Alessio Fanelli](https://github.com/FanaHOVA).
