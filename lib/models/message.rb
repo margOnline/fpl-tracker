@@ -1,4 +1,4 @@
-require './player'
+require './lib/models/player'
 
 class Message
   attr_accessor :data

@@ -1,4 +1,4 @@
-require './player'
+require './lib/models/player'
 
 RSpec.describe Player do
 

@@ -1,10 +1,10 @@
 require 'httparty'
 require 'sequel'
-require './response_parser'
-require './message'
-require './notification'
+require './lib/parsers/response_parser'
+require './lib/models/message'
+require './lib/notification'
 
-class FplTracker
+class Tracker
   URL = 'https://fantasy.premierleague.com/drf/bootstrap-static'.freeze
   DB = Sequel.connect('sqlite://dfs.db')
   
@@ -16,4 +16,4 @@ class FplTracker
   end
 end
 
-FplTracker.run
+Tracker.run

@@ -6,7 +6,7 @@ gem 'imgur-api'
 gem 'rmagick'
 gem 'sequel'
 gem 'sqlite3'
-gem 'twilio-ruby', '~> 5.0.0.rc21'
+gem 'twilio-ruby', '~> 5.2.2'
 gem 'whenever'
 
 group :test do

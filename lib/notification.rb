@@ -1,7 +1,7 @@
 require 'RMagick'
 require 'dotenv/load'
 require 'twilio-ruby'
-require './image_processor'
+require './lib/image_processor'
 
 class Notification
   ACCOUNT_SID = ENV['TWILIO_ACCOUNT_SID'].freeze

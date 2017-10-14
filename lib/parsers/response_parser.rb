@@ -1,4 +1,4 @@
-require './player_parser'
+require './lib/parsers/player_parser'
 
 class ResponseParser
   attr_accessor :response
